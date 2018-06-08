@@ -5,6 +5,8 @@ import NavItems from './NavItems'
 const StyledNavBar = styled.div`
   height: 76px;
   width: 100%;
+  top: 0;
+  left: 0;
   position: fixed;
   display: flex;
   justify-content: center;

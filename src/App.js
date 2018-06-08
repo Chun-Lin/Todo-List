@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
-import NavBar from './components/NavBar/NavBar'
 
+import Layout from './containers/Layout'
+import TaskLists from './components/TaskLists/TaskLists'
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar>Test</NavBar>
+        <Layout>
+          <TaskLists />
+        </Layout>
       </div>
     )
   }
